@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> refresh of a token </title>
+    <style>
+        #mylink {
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Refreshing Tokens...</h1>
+    </header>
+
+
+    <script>
+      fetch('/refresh', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      //body: JSON.stringify({ refreshToken: localStorage.getItem('refreshToken') })
+    }).then(response => response.json()).then(data => console.log('New access token:', data.accessToken));
+    </script>
+
+</body>
+
+</html>

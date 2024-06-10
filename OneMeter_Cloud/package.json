@@ -1,0 +1,37 @@
+{
+  "name": "onemeter_cloud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon /src/server.js",
+    "devStartAuth": "nodemon /src/authServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "html-tablify": "^2.0.4",
+    "json-parser": "^3.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "linq": "^3.2.4",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "net": "^1.0.2",
+    "request": "^2.88.2",
+    "rest": "^2.0.0",
+    "validator": "^13.12.0",
+    "websocket": "^1.0.35",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

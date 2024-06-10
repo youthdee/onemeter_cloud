@@ -1,0 +1,424 @@
+{
+    "_id": "50b5f86a-7dff-447e-9d1c-173813817183",
+    "SN": "62161540000000000708E42CDB2778CD",
+    "MAC": "E4:2C:DB:27:78:CD",
+    "firmware": {
+        "currentVersion": "0.20.8-cz",
+        "versions": [
+            "0.20.8-cz"
+        ]
+    },
+    "info": {
+        "name": "Červený Újezd",
+        "manufacturer": "ZPA",
+        "protocol": "IEC",
+        "location": {
+            "city": "",
+            "country": "",
+            "postal": "",
+            "street": ""
+        }
+    },
+    "meteringPoint": {
+        "meterID": "ZPA1463129447"
+    },
+    "config": {
+        "multiplier": 1,
+        "usageKeys": {
+            "activeEnergy": "1_8_0"
+        },
+        "idNumber": "1463129447",
+        "idKey": "0_0_0",
+        "contract": {},
+        "uiConfig": {
+            "displayProjections": false,
+            "usedTariff": null
+        }
+    },
+    "lastReading": {
+        "date": "2024-05-23T07:00:00.000Z",
+        "OBIS": {
+            "0_0_0": "9041161024279911",
+            "0_9_1": 43006,
+            "0_9_2": "1999-11-30T00:00:00.000Z",
+            "1_8_0": 141446.31,
+            "1_8_1": 141445.18,
+            "1_8_2": 1.13,
+            "2_8_0": 1.03,
+            "C_1_0": "1024279911",
+            "F_F_0": 0,
+            "S_1_1_6": 85,
+            "S_1_1_7": [
+                0,
+                0
+            ],
+            "S_1_1_16": [],
+            "S_1_1_2": 2.9469,
+            "S_1_1_9": 39,
+            "S_1_1_8": [
+                2,
+                9600
+            ],
+            "S_1_1_14": [
+                78,
+                12,
+                209,
+                212
+            ],
+            "S_1_1_4": "2024-05-23T07:00:00.000Z"
+        },
+        "source": "mqtt",
+        "BATTERY_VOLTAGE": 2.9469,
+        "BATTERY_STATUS": 4,
+        "BATTERY_PC": 95,
+        "UUID": "50b5f86a-7dff-447e-9d1c-173813817183",
+        "count": 26,
+        "encryption": "aead",
+        "meterID": "ZPA1463129447",
+        "updatedAt": {
+            "1_8_0": "2024-05-23T07:00:00.000Z",
+            "1_8_1": "2024-05-23T07:00:00.000Z",
+            "2_8_0": "2024-05-23T07:00:00.000Z",
+            "1_8_2": "2024-05-23T07:00:00.000Z",
+            "S_1_1_6": "2024-05-23T07:00:00.000Z",
+            "S_1_1_7": "2024-05-23T07:00:00.000Z",
+            "S_1_1_14": "2024-05-23T07:00:00.000Z",
+            "S_1_1_16": "2024-05-23T07:00:00.000Z",
+            "S_1_1_2": "2024-05-23T07:00:00.000Z",
+            "S_1_1_8": "2024-05-23T07:00:00.000Z",
+            "S_1_1_9": "2024-05-23T07:00:00.000Z",
+            "S_1_1_4": "2024-05-23T07:00:00.000Z"
+        }
+    },
+    "initialReading": {
+        "date": "2024-05-22T09:53:06.000Z",
+        "OBIS": {
+            "0_0_0": "9041161024279911",
+            "0_9_1": 43006,
+            "0_9_2": "1999-11-30T00:00:00.000Z",
+            "1_8_0": 141391.06,
+            "1_8_1": 141389.92,
+            "1_8_2": 1.13,
+            "2_8_0": 1.03,
+            "C_1_0": "1024279911",
+            "F_F_0": 0,
+            "S_1_1_6": 0,
+            "S_1_1_7": [
+                0,
+                0
+            ],
+            "S_1_1_16": [],
+            "S_1_1_2": 2.9328,
+            "S_1_1_9": 27,
+            "S_1_1_8": [
+                15,
+                9600
+            ],
+            "S_1_1_14": [
+                78,
+                12,
+                208,
+                211
+            ]
+        },
+        "source": "init",
+        "BATTERY_VOLTAGE": 2.9328,
+        "BATTERY_STATUS": 4,
+        "BATTERY_PC": 93
+    },
+    "timezone": {
+        "name": "Europe/Prague"
+    },
+    "hardware": {
+        "version": "4.7"
+    },
+    "type": "home",
+    "branding": {
+        "_id": "600ec7d6072a0ba539a9ad6a",
+        "name": "cez-home",
+        "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNS4wMDAxMTFtbSIgaGVpZ2h0PSIxNS4wMDAxMW1tIiB2aWV3Qm94PSIwIDAgMTUuMDAwMTExIDE1LjAwMDExIj48ZGVmcy8+PHBhdGggZmlsbD0iI2U4NTExMyIgZD0iTTAgMTUuMDAwMTFoMTUuMDAwMTExVjBIMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMi44NDE5NzYgMTIuMTU4MzFoOS4zMTY4NjF2LTEuODYzMzdINC43MDUzNDhWNC43MDQ0N2w3LjQ1MzQ4OS4wMDA3VjIuODQxNDVIMi44NDE5NzZ6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYuNTgyNDgxIDguNDMxNzRoNS40OTA5ODZWNi41NjgzN0g2LjU4MjQ4MXoiLz48L3N2Zz4="
+    },
+    "firstReading": {
+        "_id": "78c04d6650b5f86a",
+        "UUID": "50b5f86a-7dff-447e-9d1c-173813817183",
+        "OBIS": {
+            "1_8_0": 141391.06,
+            "2_8_0": 1.03,
+            "1_8_1": 141389.92,
+            "1_8_2": 1.13,
+            "S_1_1_6": 0,
+            "S_1_1_7": [
+                0,
+                0
+            ],
+            "S_1_1_14": [
+                78,
+                12,
+                208,
+                211
+            ],
+            "S_1_1_16": [],
+            "S_1_1_2": 2.9328,
+            "S_1_1_8": [
+                15,
+                9600
+            ],
+            "S_1_1_9": 27
+        },
+        "source": "tcp",
+        "encryption": "aead",
+        "meterID": "ZPA1463129447",
+        "date": "2024-05-22T09:52:56.000Z"
+    },
+    "disabled": false,
+    "usage": {
+        "thisMonth": 55.25,
+        "previousMonth": null,
+        "fullTime": 55.25,
+        "lastHour": null,
+        "projection": 76.54748603351955,
+        "projectionFillRatio": 0.7217741935483871
+    },
+    "production": {
+        "thisMonth": null,
+        "previousMonth": null,
+        "fullTime": null,
+        "lastHour": null
+    },
+    "meta": {
+        "0_0_0": {
+            "key": "METER_ID_NUMBER",
+            "constant": true,
+            "category": "meter",
+            "subcategory": "identification",
+            "unit": "",
+            "description": {
+                "short": "Meter ID",
+                "long": "Meter identification number"
+            },
+            "shortcode": "0"
+        },
+        "0_9_1": {
+            "key": "TIME",
+            "constant": false,
+            "category": "meter",
+            "subcategory": "identification",
+            "unit": "",
+            "description": {
+                "short": "Time",
+                "long": "Current time on meter"
+            },
+            "shortcode": "2"
+        },
+        "0_9_2": {
+            "key": "DATE",
+            "constant": false,
+            "category": "meter",
+            "subcategory": "identification",
+            "unit": "",
+            "description": {
+                "short": "Date",
+                "long": "Current date on meter"
+            },
+            "shortcode": "3"
+        },
+        "1_8_0": {
+            "key": "POSITIVE_ACTIVE_ENERGY_TOTAL",
+            "constant": false,
+            "category": "energy",
+            "subcategory": "active",
+            "unit": "kWh",
+            "description": {
+                "short": "Energy A+ (total)",
+                "long": "Positive active energy A+ (total)"
+            },
+            "shortcode": "12"
+        },
+        "1_8_1": {
+            "key": "POSITIVE_ACTIVE_ENERGY_T1",
+            "constant": false,
+            "category": "energy",
+            "subcategory": "active",
+            "unit": "kWh",
+            "description": {
+                "short": "Energy A+ (tariff 1)",
+                "long": "Positive active energy A+ (tariff 1)"
+            },
+            "shortcode": "13"
+        },
+        "1_8_2": {
+            "key": "POSITIVE_ACTIVE_ENERGY_T2",
+            "constant": false,
+            "category": "energy",
+            "subcategory": "active",
+            "unit": "kWh",
+            "description": {
+                "short": "Energy A+ (tariff 2)",
+                "long": "Positive active energy A+ (tariff 2)"
+            },
+            "shortcode": "14"
+        },
+        "2_8_0": {
+            "key": "NEGATIVE_ACTIVE_ENERGY_TOTAL",
+            "constant": false,
+            "category": "energy",
+            "subcategory": "active",
+            "unit": "kWh",
+            "description": {
+                "short": "Energy A- (total)",
+                "long": "Negative active energy A- (total)"
+            },
+            "shortcode": "17"
+        },
+        "C_1_0": {
+            "key": "METER_SERIAL_NUMBER",
+            "constant": true,
+            "category": "meter",
+            "subcategory": "identification",
+            "unit": "",
+            "description": {
+                "short": "Meter SN",
+                "long": "Meter serial number"
+            },
+            "shortcode": "62"
+        },
+        "F_F_0": {
+            "key": "METER_ERROR_CODE",
+            "constant": false,
+            "category": "meter",
+            "subcategory": "diagnostic",
+            "unit": "",
+            "description": {
+                "short": "Meter error",
+                "long": "Meter error code"
+            },
+            "shortcode": "63"
+        },
+        "S_1_1_6": {
+            "key": "READOUT_SUCCEEDED_CNT",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "",
+            "description": {
+                "short": "Succeeded readouts",
+                "long": "Succeeded readouts count"
+            },
+            "shortcode": "79"
+        },
+        "S_1_1_7": {
+            "key": "READOUT_FAILED_CNT",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "",
+            "description": {
+                "short": "Failed readouts",
+                "long": "Failed readouts count on first/second meter message"
+            },
+            "shortcode": "80"
+        },
+        "S_1_1_16": {
+            "key": "ONEMETER_DEVICE_STATUS",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "",
+            "description": {
+                "short": "Flags",
+                "long": "Device status flags"
+            }
+        },
+        "S_1_1_2": {
+            "key": "BATTERY_VOLTAGE",
+            "constant": true,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "V",
+            "description": {
+                "short": "Battery voltage",
+                "long": "Battery voltage"
+            },
+            "shortcode": "75"
+        },
+        "S_1_1_9": {
+            "key": "TEMPERATURE",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "°C",
+            "description": {
+                "short": "Temperature",
+                "long": "Temperature measured with OneMeter"
+            },
+            "shortcode": "83"
+        },
+        "S_1_1_8": {
+            "key": "UART_PARAMETERS",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "",
+            "description": {
+                "short": "UART communication parameters",
+                "long": "TX LED light power / UART communication speed"
+            },
+            "shortcode": "82"
+        },
+        "S_1_1_14": {
+            "key": "TESTS",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "",
+            "description": {
+                "short": "tests",
+                "long": "internal tests"
+            },
+            "shortcode": "87"
+        },
+        "S_1_1_4": {
+            "key": "READOUT_TIME_SECONDS",
+            "constant": false,
+            "category": "non-obis",
+            "subcategory": "beacon-info",
+            "unit": "",
+            "description": {
+                "short": "Readout timestamp",
+                "long": "Actual readout timestamp"
+            },
+            "shortcode": "77"
+        }
+    },
+    "negativeEnergyExists": false,
+    "metadata": {
+        "billingPeriods": [
+            {
+                "started": "2024-04-30T22:00:00.000Z",
+                "date": "2024-05-31T22:00:00.000Z",
+                "usages": [],
+                "activeEnergy": null,
+                "activeEnergy_1": null,
+                "activeEnergy_2": null,
+                "negativeEnergy": null,
+                "reactiveEnergy": null,
+                "averagedCount": 0,
+                "readoutCount": 0,
+                "deltaMax": null
+            }
+        ]
+    },
+    "own": true,
+    "users": [
+        {
+            "displayName": "youthdee w",
+            "email": "prod.youthdee@gmail.com",
+            "grantedAt": "2024-05-22T10:08:13.415Z"
+        }
+    ],
+    "owner": {
+        "name": "Roman Janatka",
+        "email": "roman.janatka@gmail.com"
+    },
+    "public": false
+}
